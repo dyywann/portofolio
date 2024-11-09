@@ -72,7 +72,9 @@ export default function Home() {
           </Flex>
 
           <Flex align={"center"} justify={"center"}>
-            <button className="px-6 py-3 bg-primary-color text-text-color text-base md:text-lg font-medium rounded-full">Let&apos;s Talk and Connect</button>
+            <a href="#contact">
+              <button className="px-6 py-3 bg-primary-color text-text-color text-base md:text-lg font-medium rounded-full">Let&apos;s Talk and Connect</button>
+            </a>
           </Flex>
         </Container>
       </Section>
